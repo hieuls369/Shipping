@@ -1,0 +1,161 @@
+*{
+
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+    }
+    /*-----HEAD-----*/
+  .head{
+    padding: 0px 50px 0px 55px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f0f0c;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+  }
+  .logo{
+    padding-top: 2px;
+    padding-left: 55px;
+    float: left;
+  }
+  .logo img{
+
+    width: 70px;
+
+  }
+  .menu-ctn > li{
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    padding: 8px 15px;
+    transition: all 0.8s ease;
+    position: relative;
+    opacity: 1;
+    border-radius: 1px;
+    font-size: 18px;
+    margin-left: 100px;
+  }
+  .menu-ctn{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+  }
+  .menu-ctn li:hover{
+    opacity: 1;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+  
+
+  /*-------MID--------*/
+  .mid{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #282b30;
+
+  }
+  .contact{
+    padding-top: 20px;
+    height: auto;
+    background-image: url(images\anh1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+  }
+  
+    /*---------BOT-------*/
+    .bot{
+      padding-top: 15px;
+      font-size: 20px;
+      color: #bfa386;
+    }
+    .bot span{
+      color: #a6631c;
+    }
+    /*-----Edit------*/
+
+    .inner-content{
+      width: 80%;
+      height: auto;
+      margin: 0px 120px 20px 130px;
+      border-radius: 3px;
+      padding: 10px;
+      padding-bottom: 30px;
+      border: solid red 1px;
+      background-color: orange;
+    }
+    .addButton{
+      text-decoration: none; 
+      margin-right: 75%;
+
+      background-color: yellow;
+      padding: 10px;
+
+    }
+    .inner-left{
+      background-color: lightblue;
+      border-radius: 3px;
+      float: left;
+      width: 40%;
+      height: auto;
+      margin: 10px;
+      padding: 10px;
+
+    }
+    .inner-left li{
+      display: block;
+      text-align: left;
+      
+      margin-bottom: 10px;
+      
+      padding: 5px;
+
+    }
+    .inner-left li input{
+      width: 100%;
+      text-align: left;
+      margin-top: 5px;
+      padding-top: 5px;
+      
+    }
+    .inner-right{
+      
+      width: 50%;
+      height: 600px;
+      margin: 10px;
+      margin-top: 0px;
+      margin-left: 45%;
+      padding: 10px;
+    }
+    .inner-right li{
+      display: block;
+      text-align: left;
+      
+      margin-bottom: 10px;
+      
+      padding: 5px;
+    }
+    .inner-left li button{
+        padding: 5px;
+        width: 20%;
+    }
+    .inner-right li button{
+        padding: 5px;
+        margin-right: 10px;
+        
+    }
+    .inner-right li img{
+      width: 35%;
+      height: 200px;
+    }
+    .contact h1{
+      padding-right: 10px;
+      padding-bottom: 10px;
+    }
+  

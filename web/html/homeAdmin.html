@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="css\home.css">
+ 
+</head>
+<body style="background-color:#282b30 ">
+	<div class="head">
+		<div >
+			<div class="logo">
+				<img src="images\4906c84c-08c8-4c89-bd9e-2c3742f1c615.png">
+			</div>
+		</div>
+		<div style="padding-left: 70%">
+			<ul class="menu-ctn">
+				<!-- <li>Home</li> -->
+				<!-- <li>Booking</li> -->
+				<!-- <li>Edit Booking</li> -->
+				
+				<li style="background-color: teal">Admin</li>
+			</ul>
+		</div>
+	</div>
+	<div class="mid">
+		
+		<div class="contact">
+			
+			<h1>Hôm nay ăn gì đến ngay với NVH</h1>
+			<p>Có ngay món ăn đến tận nhà chỉ với nút \click/</p>
+
+			
+			<div class="mid-contenta1">
+				
+				<div class="inner-right">
+					<p>MENU các món ăn<button class="button" style="float: right; margin-right: 10px;margin-top: -3px"><span>ADD</span></button></p>
+					<li>
+						<img src="F:\Chuyên Ngành 4\PRJ321\content\Shipping\web\images\Com-bo-luc-lac-600x600.jpg">
+						<div>
+							<a href="">Bò lúc lắc</a>
+						</div>					
+						<div>
+							Vị thơm ngọt của rượu vang quyện trong nước sốt của món bò lúc lắc của Ship đồ ăn đêm Hà Nội khiến người ăn khó mà quên được khi đã từng thưởng thức. Chỉ có chế biến từ nguyên liệu thịt tươi mới có thể tạo
+						</div>
+						<div style="padding-right: 0px;">
+							<span style="color: blue">Giá :</span>50.000d<span style="font-size: 15px; opacity: 0.5"> /1 suất</span>
+						</div>
+						<div class="mid-contentb2">
+							<button style="float: left; margin-right: 10px;" class="button"><span>Update</span></button>
+							<button class="button"><span>Delete</span></button>
+						</div>
+					</li>
+					
+				</div>
+			</div>
+			
+
+		</div>
+		
+		<div class="bot">
+			More food more joy with <span>TI</span>
+		</div>
+	</div>
+
+	
+</body>
+</html>
+<script>     /*SLIDESHOW*/
+		console.log("Test");
+		let slideIndex = 0;
+
+		const showSlide = () => {
+			
+			const slides = document.getElementsByClassName("mySlide");	
+			const dots = document.getElementsByClassName("dot");
+			console.log(dots);
+
+
+			for(let i=0; i < slides.length; i++){
+				slides[i].style.display = "none";
+			}
+
+			slideIndex++;
+
+
+			if(slideIndex > slides.length){
+				slideIndex = 1;
+			}
+
+
+			slides[slideIndex - 1].style.display = "block";
+
+			
+			setTimeout(showSlide,6000);
+		};
+
+		showSlide();
+
+	
+	</script>

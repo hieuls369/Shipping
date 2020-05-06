@@ -1,0 +1,256 @@
+*{
+
+  		padding: 0;
+  		margin: 0;
+  		box-sizing: border-box;
+  		font-family: Verdana, Geneva, Tahoma, sans-serif;
+  		text-align: center;
+  	}
+  	/*-----HEAD-----*/
+ 	.head{
+ 		padding: 0px 50px 0px 55px;
+ 		height: 80px;
+ 		align-items: center;
+ 		justify-content: space-between;
+ 		background-color: #0f0f0c;
+ 		position: sticky;
+ 		top: 0;
+ 		z-index: 2;
+ 		
+ 	}
+ 	.logo{
+ 		padding-top: 0px;
+ 		padding-left: 55px;
+ 		float: left;
+ 	}
+ 	.logo img{
+
+ 		width: 80px;
+
+ 	}
+ 	.menu-ctn > li{
+ 		display: inline-block;
+ 		border-radius: 2px;
+ 		color: white;
+ 		padding: 8px 15px;
+ 		transition: all 0.8s ease;
+ 		position: relative;
+ 		opacity: 1;
+ 		border-radius: 1px;
+ 		font-size: 18px;
+        margin-left: 100px;
+ 	}
+ 	.menu-ctn{
+ 		padding-top: 20px;
+ 		padding-bottom: 10px;
+ 		
+ 	}
+ 	.menu-ctn li:hover{
+ 		opacity: 1;
+ 		cursor: pointer;
+ 		background-color: lightblue;
+ 	}
+ 	
+
+ 	/*-------MID--------*/
+ 	.mid{
+ 		display: block;
+ 		width: 100%;
+ 		height: auto;
+ 		background-color: #282b30;
+ 	}
+ 	.contact{
+ 		padding-top: 50px;
+                padding-bottom: 50px;
+                display: block;
+ 		height: auto;
+ 		background-color: orange;
+ 	}
+ 	.contact h1{
+ 		padding-right: 10px;
+ 		font-size: 50px;
+ 		color:#faf0e6;
+ 	}
+ 	.contact p{
+ 		padding-top: 10px;
+ 		padding-bottom: 10px;
+ 		font-size: 25px;
+ 		color: #faf0e6;
+ 	}
+ 	.mid-contentb2{
+ 		text-align: center;
+ 		
+ 		padding-left: 36%;
+
+ 	}
+ 	.button {
+  	border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 8px;
+    width: 140px;
+    transition: all 0.5s;
+    cursor: pointer;
+    /*margin: 5px;*/
+    float: left;
+    }
+
+    .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    }
+
+    .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+    }
+
+    .button:hover span {
+    padding-right: 25px;
+    }
+
+    .button:hover span:after {
+    opacity: 1;
+    right: 0;
+    }
+    /*---------BOT-------*/
+    .bot{
+    	padding: 15px;
+    	font-size: 20px;
+    	color: #bfa386;
+    }
+    .bot span{
+    	color: #a6631c;
+    }
+    .mySlide{
+    	padding-right: 200px;
+ 		width: 100%;
+ 	}
+ 	.mySlide img{
+ 		width: 40%;
+ 		height: 300px;
+ 	}
+ 	.slideshow-container{
+ 		width: 100%;
+ 		position: relative;
+ 		z-index: 0;
+ 	}
+ 	.fade{
+ 		
+ 		animation-name: fade;
+ 		animation-duration: 1.5s;
+ 	}
+ 	@keyframes fade{
+ 		from {opacity: .1}
+ 		to {opacity: 1}
+ 	}
+
+
+
+
+
+
+ 	.mid-contenta1{
+ 		border: solid red 1px;
+ 		border-radius: 3px;
+ 		width: 80%;
+ 		height: auto;
+ 		margin-left: 10%;
+ 		margin-top: 20px;
+ 		padding: 10px;
+ 		background-color: lightblue;
+
+ 	}
+ 	.inner-left{
+ 		
+ 		width: 25%;
+ 		height: auto;
+ 		margin-left: 10px;
+ 		margin-top: 20px;
+ 		float: left;
+ 		position: sticky;
+ 		background-color: lightblue;
+ 	}
+ 	.inner-left li{
+ 		display: block;
+ 		
+ 		margin-top: 10px;
+ 		padding: 10px;
+
+ 	}
+ 	.inner-left li:hover{
+ 		background-color: orange;
+ 		cursor: pointer;
+ 	}
+ 	.inner-left p{
+ 		font-size: 25px;
+ 		color: black;
+ 		border: solid orange 2px;
+ 		border-radius: 3px;
+ 		background-color: orange;
+ 	}
+ 	.inner-right{
+ 		
+ 		width: 80%;
+ 		height: auto;
+ 		margin-top: 20px;
+        margin-left: 10%;
+ 		
+ 	}
+ 	.inner-right p{
+ 		font-size: 20px;
+ 		padding: 10px;
+ 		color: black;
+ 		width: 100%;
+ 		text-align: left;
+ 		border: solid orange 1px;
+ 		background-color: orange;
+
+ 	}
+ 	.inner-right li{
+ 		display: block;
+ 		height: 250px;
+ 		padding: 10px;
+ 		margin: 10px;
+ 		
+ 	}
+ 	.inner-right img{
+ 		width: 30%;
+ 		float: left;
+ 		height: 220px;
+ 		border-radius: 3px;
+ 	}
+ 	.inner-right img:hover{
+ 		opacity: 0.7;
+ 		cursor: pointer;
+ 	}
+ 	.inner-right li a{
+ 		text-decoration: none;
+ 	}
+ 	.inner-right li div{
+ 		text-align: left;
+ 		
+ 		padding: 10px 0px 10px 35%; 
+ 	}
+	.inner-right p button{
+		padding: 5px;
+		width: 10%;
+		
+		
+	}
+    .content{
+        height: 99px;
+    }
+	
+  .d-none {
+
+}
